@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "intervention_name",
-  "intervention_date"
+  "intervention_date",
+  "customer"
  ],
  "fields": [
   {
@@ -20,9 +21,15 @@
    "in_list_view": 1,
    "label": "Intervention Date",
    "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
   }
  ],
- "modified": "2021-03-13 01:14:41.132184",
+ "modified": "2021-03-13 01:59:24.899069",
  "modified_by": "Administrator",
  "module": "eco_maintenance",
  "name": "Intervention",
