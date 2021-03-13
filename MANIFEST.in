@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ecocoon *.css
+recursive-include ecocoon *.csv
+recursive-include ecocoon *.html
+recursive-include ecocoon *.ico
+recursive-include ecocoon *.js
+recursive-include ecocoon *.json
+recursive-include ecocoon *.md
+recursive-include ecocoon *.png
+recursive-include ecocoon *.py
+recursive-include ecocoon *.svg
+recursive-include ecocoon *.txt
+recursive-exclude ecocoon *.pyc
